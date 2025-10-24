@@ -38,8 +38,12 @@ Bem-vindo ao **Multi-Quiz App**! Um jogo de trivia vibrante e desafiador constru
 ```bash
 npm install
 ```
-
-*Se você usa Yarn, execute `yarn install`.*
+```bash
+npm install axios
+```
+```bash
+npm install expo
+```
 
 ### 3. Execução
 
