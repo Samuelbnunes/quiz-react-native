@@ -1,44 +1,41 @@
-# Quiz App - Neobrutalism Style
+# Multi-Quiz App
 
-Este é um aplicativo de quiz desenvolvido em React Native (Expo) como parte de um projeto acadêmico. O design do aplicativo segue o estilo visual Neobrutalismo, e os dados das perguntas são consumidos da API Open Trivia Database.
+Bem-vindo ao **Multi-Quiz App**! Um jogo de trivia vibrante e desafiador construído com React Native e Expo. Com um design único no estilo Neobrutalista, este aplicativo testa seus conhecimentos em diversas categorias e dificuldades. Pronto para provar que você é um mestre do trivia?
+
+## Funcionalidades
+
+*   Tela inicial para inserção de nome e seleção de categoria/dificuldade.
+*   Quiz com perguntas de múltipla escolha (conforme a dificuldade aumentam as perguntas).
+*   Tela de resultado com pontuação.
+*   Interface traduzida para Inglês, Português e Espanhol.
+*   **Tradução Dinâmica:** As perguntas e respostas são traduzidas dinamicamente para o idioma selecionado (Português ou Espanhol) usando a Google Cloud Translation API.
+
+---
 
 ## Integrantes do Grupo
 
-*   **Nome:** [Samuel Barquel Nunes]
-    *   **RA:** [1136923]
-*   **Nome:** [Arthur]
-    *   **RA:** [1111111]
-*   **Nome:** [Dionatha]
-    *   **RA:** [2222222]
+*   **Nome:** Samuel Barquel Nunes
+    *   **RA:** 1136923
+*   **Nome:** Arthur Gilmar Colussi Biolchi
+    *   **RA:** 1137267
+*   **Nome:** Dionatha Zanotto Diniz
+    *   **RA:** 1137190
 
-## Tecnologias Utilizadas
+## Como Instalar e Executar o Projeto
 
-*   React Native (com Expo)
-*   JavaScript
-*   React Navigation
-*   Axios
-*   Sistema de tradução customizado
-
-## Como Executar o Projeto
-
-### 1. Pré-requisitos
+### Pré-requisitos
 
 *   Node.js (versão LTS recomendada)
 *   NPM ou Yarn
 *   Expo Go (aplicativo para celular) ou um emulador Android/iOS.
 
-### 2. Instalação
+### Instalação
 
-Clone o repositório e instale as dependências:
+1.  Clone o repositório para a sua máquina local.
+2.  Navegue até a pasta do projeto pelo terminal.
+3.  Instale as dependências necessárias com o comando:
 
 ```bash
-# Clone este repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
-
-# Acesse a pasta do projeto
-cd seu-repositorio
-
-# Instale as dependências
 npm install
 ```
 
@@ -55,11 +52,3 @@ npx expo start
 Isso abrirá o Metro Bundler no seu navegador. Você pode então escanear o QR code com o aplicativo Expo Go no seu celular para rodar o projeto.
 
 ---
-
-## Funcionalidades
-
-*   Tela inicial para inserção de nome e seleção de categoria/dificuldade.
-*   Quiz com perguntas de múltipla escolha.
-*   Tela de resultado com pontuação.
-*   Interface traduzida para Inglês, Português e Espanhol.
-*   **Tradução Dinâmica:** As perguntas e respostas são traduzidas dinamicamente para o idioma selecionado (Português ou Espanhol) usando a Google Cloud Translation API.
