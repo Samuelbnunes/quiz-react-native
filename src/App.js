@@ -1,6 +1,6 @@
-import React from "react";
-import Routes from "./routes/routes";
+import React from 'react';
+import AppNavigator from './navigation/AppNavigator';
 
 export default function App() {
-  return <Routes />;
+  return <AppNavigator />;
 }
